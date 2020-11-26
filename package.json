@@ -1,0 +1,22 @@
+{
+  "name": "deno-mongo-react",
+  "version": "1.0.0",
+  "description": "Using Deno w/ abc framework, mongodb, react",
+  "main": "main.ts",
+  "scripts": {
+    "start": "deno run --allow-write --allow-read --allow-plugin --allow-net --allow-env --unstable ./main.ts"
+  },
+  "keywords": [
+    "deno",
+    "mongo",
+    "react"
+  ],
+  "author": "colinfendrick",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.12.1",
+    "typescript": "^4.1.2"
+  }
+}
